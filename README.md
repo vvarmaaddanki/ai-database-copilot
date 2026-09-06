@@ -1,6 +1,12 @@
 # AI Database Copilot
+LIVE DEMO URL: https://ai-database-copilot-t1ss.onrender.com
 
 A Django REST Framework API for securely managing database connection configurations with token-based authentication and CRUD operations.
+
+git clone https://github.com/vvarmaaddanki/ai-database-copilot.git
+
+The API will be available at: http://127.0.0.1:8000/
+
 
 ## 🚀 Features
 
@@ -111,4 +117,5 @@ The API will be available at:
 http://127.0.0.1:8000/
 
 👨‍💻 Project Contribution
+A V VARMA
 Developed and implemented the database connection REST API functionality, including authentication, CRUD operations, validation, error handling, testing, and API integration
