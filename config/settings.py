@@ -29,9 +29,11 @@ SECRET_KEY = 'django-insecure-j5%-7np(#)hhk@+j0jwh&04-0t2zu#vo=q13@a_ww(o%q9t_=+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost",
+ALLOWED_HOSTS = [
+    "localhost",
     "127.0.0.1",
-    ".onrender.com",]
+    ".onrender.com",
+    ]
 
 
 # Application definition
@@ -147,10 +149,10 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.IsAuthenticated",
     
-
-
-CSRF_TRUSTED_ORIGINS = ["https://ai-database-copilot-t1ss.onrender.com",]
     ],
 }
+CSRF_TRUSTED_ORIGINS = [
+    "https://ai-database-copilot-t1ss.onrender.com",
+]
 
 
